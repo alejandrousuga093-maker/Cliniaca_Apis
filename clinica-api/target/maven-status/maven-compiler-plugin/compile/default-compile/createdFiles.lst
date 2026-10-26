@@ -1,0 +1,16 @@
+com\clinica\clinica_api\domain\model\Persona.class
+com\clinica\clinica_api\infrastructure\repository\PacienteRepositoryMemoria.class
+com\clinica\clinica_api\presentation\controller\PacienteController.class
+com\clinica\clinica_api\domain\model\Medico.class
+com\clinica\clinica_api\presentation\dto\CitaResponse.class
+com\clinica\clinica_api\domain\repository\PacienteRepository.class
+com\clinica\clinica_api\ClinicaApiApplication.class
+com\clinica\clinica_api\domain\model\Paciente.class
+com\clinica\clinica_api\infrastructure\repository\CitaRepositoryMemoria.class
+com\clinica\clinica_api\presentation\controller\CitaController.class
+com\clinica\clinica_api\domain\repository\CitaRepository.class
+com\clinica\clinica_api\presentation\dto\PacienteResponse.class
+com\clinica\clinica_api\domain\model\Recepcionista.class
+com\clinica\clinica_api\domain\model\Cita.class
+com\clinica\clinica_api\application\usecase\ListarCitasUseCase.class
+com\clinica\clinica_api\application\usecase\ListarPacientesUseCase.class

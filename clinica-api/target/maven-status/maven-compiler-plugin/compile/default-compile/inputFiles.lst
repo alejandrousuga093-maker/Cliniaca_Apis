@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\application\usecase\ListarCitasUseCase.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\application\usecase\ListarPacientesUseCase.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\ClinicaApiApplication.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\model\Cita.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\model\Medico.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\model\Paciente.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\model\Persona.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\model\Recepcionista.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\repository\CitaRepository.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\domain\repository\PacienteRepository.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\infrastructure\repository\CitaRepositoryMemoria.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\infrastructure\repository\PacienteRepositoryMemoria.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\presentation\controller\CitaController.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\presentation\controller\PacienteController.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\presentation\dto\CitaResponse.java
+C:\Users\USER\Desktop\ \procesos\clinica-api\src\main\java\com\clinica\clinica_api\presentation\dto\PacienteResponse.java
