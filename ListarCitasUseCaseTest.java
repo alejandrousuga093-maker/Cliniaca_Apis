@@ -23,7 +23,7 @@ class ListarCitasUseCaseTest {
         listarCitasUseCase = new ListarCitasUseCase(citaRepository);
     }
 
-    // prueba_n5:Listar citas registradas
+    // PRUEBA 5: Listar citas registradas
     @Test
     void debeListarTodasLasCitas() {
 
@@ -43,7 +43,7 @@ class ListarCitasUseCaseTest {
         verify(citaRepository, times(1)).listarTodas();
     }
 
-    // prueba_n6:Listar cuando no existen citas
+    // PRUEBA 6: Listar cuando no existen citas
     @Test
     void debeDevolverListaVaciaCuandoNoHayCitas() {
 
