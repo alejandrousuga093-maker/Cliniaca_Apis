@@ -28,10 +28,10 @@ class CrearCitaUseCaseTest {
     private Paciente paciente;
     private Medico medico;
 
-    @BeforeEach  //ejecunta un configuracion antes de cada prueva 
+    @BeforeEach  
     void setUp() {
 
-        citaRepository = mock(CitaRepository.class);    //mock me crea un objeto de prueva de la clase CitaRepository
+        citaRepository = mock(CitaRepository.class);    
         pacienteRepository = mock(PacienteRepository.class);
         medicoRepository = mock(MedicoRepository.class);
 
@@ -42,11 +42,11 @@ class CrearCitaUseCaseTest {
         );
 
         paciente = new Paciente(
-                "Maria", "123456", 25, "Medio" //datos traidos de paciente repository
+                "Maria", "123456", 25, "Medio" 
         );
 
         medico = new Medico(
-                "Carlos", "789456", 40, "Medicina General" //datos de medico repository
+                "Carlos", "789456", 40, "Medicina General" 
         );
     }
 
@@ -54,7 +54,7 @@ class CrearCitaUseCaseTest {
     @Test
     void debeCrearCitaCorrectamente() {
 
-        when(pacienteRepository.listarTodos()) //responde a un objeto simulado con una lista que contiene el paciente creado
+        when(pacienteRepository.listarTodos()) 
                 .thenReturn(List.of(paciente));
 
         when(medicoRepository.listarTodos())
@@ -72,7 +72,7 @@ class CrearCitaUseCaseTest {
         assertEquals(medico, resultado.getMedico());
     }
 
-    // PRUEBA 2: Paciente inexistente
+    // prueba-n2: Paciente inexistente
     @Test
     void debeLanzarExcepcionCuandoPacienteNoExiste() {
 
@@ -94,7 +94,7 @@ class CrearCitaUseCaseTest {
         verify(citaRepository, never()).guardar(any());
     }
 
-    // PRUEBA 3: Médico inexistente
+    // prueba-n3: Médico inexistente
     @Test
     void debeLanzarExcepcionCuandoMedicoNoExiste() {
 
@@ -119,7 +119,7 @@ class CrearCitaUseCaseTest {
         verify(citaRepository, never()).guardar(any());
     }
 
-    // PRUEBA 4: Verificar que se guarde la cita
+    // prueba-n4: Verificar que se guarde la cita
     @Test
     void debeGuardarLaCitaEnElRepositorio() {
 
@@ -136,7 +136,6 @@ class CrearCitaUseCaseTest {
                 "10:00"
         );
 
-        verify(citaRepository, times(1)).guardar(any(Cita.class)); //verifica que el metodo guardar del repositorio de citas se haya llamado exactamente una vez con cualquier objeto de tipo Cita
+        verify(citaRepository, times(1)).guardar(any(Cita.class)); 
     }
 }
-//assertThrows comprueba que una ejecución lance el tipo de excepción esperado.
