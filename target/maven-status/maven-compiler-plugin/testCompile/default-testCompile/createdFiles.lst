@@ -1,0 +1,5 @@
+com\clinica\clinica_api\application\usecase\RegistrarPacienteUseCaseTest.class
+com\clinica\clinica_api\application\usecase\ListarPacientesUseCaseTest.class
+com\clinica\clinica_api\application\usecase\CrearCitaUseCaseTest.class
+com\clinica\clinica_api\application\usecase\ListarCitasUseCaseTest.class
+com\clinica\clinica_api\ClinicaApiApplicationTests.class
